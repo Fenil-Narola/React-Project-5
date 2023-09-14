@@ -29,6 +29,7 @@ const ContactCard = ({ contact }) => {
           <div className="">
             <h2 className="font-medium">{contact.name}</h2>
             <p className="text-sm">{contact.email}</p>
+            <p className="text-sm">{contact.phone}</p>
           </div>
         </div>
         <div className="flex text-3xl">
